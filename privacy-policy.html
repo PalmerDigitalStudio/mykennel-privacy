@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — My Kennel</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #FDF6EC;
+      --card: #FFF8F0;
+      --border: #E8D5C0;
+      --brown-dark: #3B2A1A;
+      --brown-mid: #5C4033;
+      --brown-light: #8B6F4E;
+      --brown-pale: #A0856C;
+      --green: #4A7C59;
+      --purple: #7C4DFF;
+    }
+
+    body {
+      background-color: var(--cream);
+      font-family: 'Lato', sans-serif;
+      color: var(--brown-dark);
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: var(--brown-mid);
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+
+    header .paw { font-size: 36px; margin-bottom: 8px; }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #FDF6EC;
+      margin-bottom: 4px;
+    }
+
+    header p {
+      color: #D4B896;
+      font-size: 14px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .last-updated {
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-size: 13px;
+      color: var(--brown-light);
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    section {
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      color: var(--brown-mid);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    section p {
+      font-size: 15px;
+      color: var(--brown-dark);
+      margin-bottom: 12px;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    section ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    section ul li {
+      font-size: 15px;
+      color: var(--brown-dark);
+      margin-bottom: 6px;
+    }
+
+    .highlight {
+      background-color: #E8F5EE;
+      border-left: 3px solid var(--green);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 14px;
+      color: var(--brown-mid);
+      margin-top: 12px;
+    }
+
+    .contact-card {
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .contact-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      color: var(--brown-mid);
+      margin-bottom: 8px;
+    }
+
+    .contact-card p { font-size: 15px; color: var(--brown-light); margin-bottom: 12px; }
+
+    .contact-card a {
+      display: inline-block;
+      background-color: var(--green);
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 10px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: var(--brown-pale);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="paw">🐾</div>
+    <h1>My Kennel</h1>
+    <p>Privacy Policy</p>
+  </header>
+
+  <div class="container">
+
+    <div class="last-updated">
+      📅 Last updated: 28 May 2026
+    </div>
+
+    <section>
+      <h2>👋 Introduction</h2>
+      <p>
+        Welcome to My Kennel, a dog breeding simulation game developed by Mandy Palmer
+        ("we", "us", or "our"). We are committed to protecting your privacy and being
+        transparent about how we handle your data.
+      </p>
+      <p>
+        This Privacy Policy explains what information we collect, how we use it, and
+        the choices you have. By using My Kennel, you agree to the practices described here.
+      </p>
+    </section>
+
+    <section>
+      <h2>📦 Information We Collect</h2>
+      <p>My Kennel collects minimal data to provide you with the best game experience:</p>
+      <ul>
+        <li><strong>Game save data</strong> — your progress, dogs, coins, kennel name and player name are stored locally on your device using AsyncStorage.</li>
+        <li><strong>Purchase data</strong> — if you make in-app purchases, transactions are processed by Apple via the App Store. We use RevenueCat to manage and verify purchases. RevenueCat may collect anonymised purchase identifiers.</li>
+        <li><strong>Device identifiers</strong> — RevenueCat may collect an anonymous device identifier to associate purchases with your device. This identifier cannot be used to personally identify you.</li>
+      </ul>
+      <div class="highlight">
+        🛡️ We do not collect your name, email address, location, contacts, camera, microphone, or any other personal data.
+      </div>
+    </section>
+
+    <section>
+      <h2>💾 How Your Data Is Stored</h2>
+      <p>
+        All game progress is stored locally on your device. We do not operate servers that
+        store your game data. If you delete the app, your local save data will be lost.
+      </p>
+      <p>
+        In-app purchase records are managed by Apple and RevenueCat. You can restore
+        previous purchases at any time using the "Restore Purchases" button in the Shop.
+      </p>
+    </section>
+
+    <section>
+      <h2>💳 In-App Purchases</h2>
+      <p>
+        My Kennel offers optional in-app purchases for gems, which can be used to enhance
+        your game experience. All purchases are processed securely by Apple.
+      </p>
+      <p>
+        We use RevenueCat (revenuecat.com) to manage subscriptions and purchases.
+        RevenueCat's privacy policy can be found at
+        <a href="https://www.revenuecat.com/privacy" style="color: #4A7C59;">revenuecat.com/privacy</a>.
+      </p>
+      <ul>
+        <li>Purchases are non-refundable except as required by law.</li>
+        <li>In-app purchases are not required to play the game.</li>
+        <li>All prices are displayed in your local currency before purchase.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>👶 Children's Privacy</h2>
+      <p>
+        My Kennel is a family-friendly game suitable for all ages. We do not knowingly
+        collect personal information from children under the age of 13. The game does not
+        include social features, chat, or the ability to share personal information.
+      </p>
+      <p>
+        In-app purchases require parental authorisation through Apple's Screen Time or
+        Family Sharing features. We encourage parents to review their device purchase
+        settings.
+      </p>
+    </section>
+
+    <section>
+      <h2>🔗 Third-Party Services</h2>
+      <p>My Kennel uses the following third-party services:</p>
+      <ul>
+        <li><strong>Apple App Store</strong> — for app distribution and payment processing.</li>
+        <li><strong>RevenueCat</strong> — for in-app purchase management and verification.</li>
+      </ul>
+      <p>
+        These services have their own privacy policies. We are not responsible for their
+        data practices. We encourage you to review their policies directly.
+      </p>
+    </section>
+
+    <section>
+      <h2>🔄 Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we make changes, we will
+        update the "Last updated" date at the top of this page. We encourage you to review
+        this policy periodically.
+      </p>
+      <p>
+        Continued use of My Kennel after changes to this policy constitutes your acceptance
+        of the updated terms.
+      </p>
+    </section>
+
+    <section>
+      <h2>⚖️ Your Rights</h2>
+      <p>
+        As all game data is stored locally on your device, you have full control over it.
+        You can delete your save data at any time by uninstalling the app.
+      </p>
+      <p>
+        For any questions about data held by RevenueCat or Apple in relation to your
+        purchases, please contact those services directly or contact us using the details below.
+      </p>
+    </section>
+
+    <div class="contact-card">
+      <h2>📬 Contact Us</h2>
+      <p>Have questions about this Privacy Policy or how we handle data?</p>
+      <a href="mailto:privacy@mykennelgame.com">privacy@mykennelgame.com</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Mandy Palmer · My Kennel · All rights reserved
+  </footer>
+
+</body>
+</html>
